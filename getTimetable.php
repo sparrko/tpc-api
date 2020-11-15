@@ -37,7 +37,7 @@
        }
     }
 
-    // Load and build data in class
+    // Initialise classes
     $days = array();
     for ($i = 1; $i < 6; $i++) {
         $day = new Day();
