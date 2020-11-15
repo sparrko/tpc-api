@@ -22,7 +22,6 @@
         $tableArr = array();
 
         $xpath = new DOMXpath($doc);
-                               //html/body/table//tr[1]/td[2]/table[2]//tr[1]/td[2]/table//tr/td/table[$tableNum]//tr/td[2]/table//tr[1]/td[2]/table//tr[@class='ttext']/td[3]
         foreach ($xpath->query("/html/body/table//tr[1]/td[2]/table[2]//tr[1]/td[2]/table//tr/td/table[$tableNum]//tr/td[2]/table//tr[1]/td[2]/table//tr[@class='ttext']/td/text()") as $var) {
             if ($tableNum == TABLE_SELECT) {
                 if ($numCell == 0) { 
