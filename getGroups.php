@@ -8,8 +8,8 @@
 
     // Class
     class Group {
-        public $name;           // название группы
-        public $value;          // ее код
+        public $name;
+        public $value;
     }
 
     // Init
