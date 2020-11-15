@@ -37,12 +37,15 @@
        }
     }
 
-    // Act and output
+    // Load and build data in class
     $days = array();
     for ($i = 1; $i < 6; $i++) {
         $day = new Day();
         $day->init($i);
         array_push($days, $day);
     }   
+
+    // Output
     echo json_encode($days);
+
 ?>
